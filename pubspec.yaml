@@ -1,5 +1,5 @@
 name: dksfunnytext
-description: A new Flutter package project.
+description: A Flutter package for both android and iOS which convert text to emoji.
 version: 0.0.1
 homepage:
 
