@@ -34,7 +34,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
 ## Usage
 
 # Simple text(bool) True
-//...
+```dart
   DksFunnyText(
           simpleText: true,
           replaceSome: true,
@@ -42,6 +42,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
           text: "Flutter DksFunnyText",
           style: TextStyle(color: Colors.red),
         ),
+        ```
         ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
 
 
