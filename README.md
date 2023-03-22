@@ -25,15 +25,65 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Example: Add the module to your project pubspec.yaml:
 
-```dart
-const like = 'sample';
-```
+... 
+  dependencies:
+  ...
+    dksfunnytext: ^0.0.1
+...
 
-## Additional information
+And install it using flutter packages get on your project folder. After that, just import the module and use it:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+import 'package:dksfunnytext/dksfunnytext.dart';
+
+# Simple text(bool) True
+//...
+DksFunnyText(
+          simpleText: true,
+          replaceSome: true,
+        
+          text: "Flutter DksFunnyText",
+          style: TextStyle(color: Colors.red),
+        ),
+        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
+
+
+# Text-Emoji(bool) simpleText=false
+//...
+DksFunnyText(
+          simpleText: false,
+          replaceSome: true,
+       
+          text: "Flutter DksFunnyText",
+          style: TextStyle(color: Colors.red),
+        ),
+        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+
+
+# Default emoji(bool) replaceSome=false
+//...
+DksFunnyText(
+          simpleText: false,
+          replaceSome: false,
+          text: "Flutter DksFunnyText",
+          style: TextStyle(color: Colors.red),
+        ),
+        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+
+# Customize emoji(bool) replaceSome=true
+ Note: If replaseSome is true then emoji Map<String,dynamic> required other wise it pick up default emojies.
+//...
+  Map<String, dynamic> emoji = {"A": '😇', "C": '😄'};
+//...
+DksFunnyText(
+          simpleText: false,
+          replaceSome: true,
+          emoji: emoji,
+          text: "Flutter DksFunnyText",
+          style: TextStyle(color: Colors.red),
+        ),
+        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+ 
+
+
