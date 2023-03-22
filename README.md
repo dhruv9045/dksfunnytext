@@ -35,7 +35,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
 
 # Simple text(bool) True
 //...
-DksFunnyText(
+  DksFunnyText(
           simpleText: true,
           replaceSome: true,
         
@@ -47,7 +47,7 @@ DksFunnyText(
 
 # Text-Emoji(bool) simpleText=false
 //...
-DksFunnyText(
+  DksFunnyText(
           simpleText: false,
           replaceSome: true,
        
@@ -59,7 +59,7 @@ DksFunnyText(
 
 # Default emoji(bool) replaceSome=false
 //...
-DksFunnyText(
+  DksFunnyText(
           simpleText: false,
           replaceSome: false,
           text: "Flutter DksFunnyText",
