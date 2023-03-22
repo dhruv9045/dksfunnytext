@@ -11,19 +11,13 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This Package can convert the text in emoji you can use this in your app.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* This can convert your simple text into emoji. You can also customize this according to your emoji set.
 
 ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
 
 Example: Add the module to your project pubspec.yaml:
 
@@ -36,6 +30,8 @@ Example: Add the module to your project pubspec.yaml:
 And install it using flutter packages get on your project folder. After that, just import the module and use it:
 
 import 'package:dksfunnytext/dksfunnytext.dart';
+
+## Usage
 
 # Simple text(bool) True
 //...
