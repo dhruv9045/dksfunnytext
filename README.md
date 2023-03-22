@@ -42,12 +42,12 @@ import 'package:dksfunnytext/dksfunnytext.dart';
           text: "Flutter DksFunnyText",
           style: TextStyle(color: Colors.red),
         ),
-        ```
-        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
+ ```
+ ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
 
 
 # Text-Emoji(bool) simpleText=false
-//...
+```dart
   DksFunnyText(
           simpleText: false,
           replaceSome: true,
@@ -55,32 +55,33 @@ import 'package:dksfunnytext/dksfunnytext.dart';
           text: "Flutter DksFunnyText",
           style: TextStyle(color: Colors.red),
         ),
-        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+```
+![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
 
 
 # Default emoji(bool) replaceSome=false
-//...
+```dart
   DksFunnyText(
           simpleText: false,
           replaceSome: false,
           text: "Flutter DksFunnyText",
           style: TextStyle(color: Colors.red),
         ),
-        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+ ```
 
 # Customize emoji(bool) replaceSome=true
  Note: If replaseSome is true then emoji Map<String,dynamic> required other wise it pick up default emojies.
 //...
   Map<String, dynamic> emoji = {"A": '😇', "C": '😄'};
-//...
-DksFunnyText(
+```dart
+  DksFunnyText(
           simpleText: false,
           replaceSome: true,
           emoji: emoji,
           text: "Flutter DksFunnyText",
           style: TextStyle(color: Colors.red),
         ),
-        ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+```
  
 
 
