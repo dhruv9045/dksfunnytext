@@ -20,20 +20,20 @@ This Package can convert the text in emoji you can use this in your app.
 ## Getting started
 
 Example: Add the module to your project pubspec.yaml:
-
+```dart
 ... 
   dependencies:
   ...
     dksfunnytext: ^0.0.1
 ...
-
+```
 And install it using flutter packages get on your project folder. After that, just import the module and use it:
-
+```dart
 import 'package:dksfunnytext/dksfunnytext.dart';
-
+```
 ## Usage
 
-# Simple text(bool) True
+# Simple text(bool) simpleText = true
 ```dart
   DksFunnyText(
           simpleText: true,
@@ -46,7 +46,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
  ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
 
 
-# Text-Emoji(bool) simpleText=false
+# Text-Emoji(bool) simpleText = false
 ```dart
   DksFunnyText(
           simpleText: false,
@@ -59,7 +59,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
 ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
 
 
-# Default emoji(bool) replaceSome=false
+# Default emoji(bool) replaceSome = false
 ```dart
   DksFunnyText(
           simpleText: false,
@@ -69,11 +69,11 @@ import 'package:dksfunnytext/dksfunnytext.dart';
         ),
  ```
 
-# Customize emoji(bool) replaceSome=true
+# Customize emoji(bool) replaceSome = true
  Note: If replaseSome is true then emoji Map<String,dynamic> required other wise it pick up default emojies.
-//...
-  Map<String, dynamic> emoji = {"A": '😇', "C": '😄'};
 ```dart
+  Map<String, dynamic> emoji = {"A": '😇', "C": '😄'};
+
   DksFunnyText(
           simpleText: false,
           replaceSome: true,
