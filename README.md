@@ -1,6 +1,6 @@
 ## DksFunnyText
 
-This Package can convert your simple text into emoji. You can also customize this according to your emoji set.
+The "DksFunnyText" package allows you to convert your simple text into emojis, making your text more engaging and fun. You can also customize the emojis according to your preferred emoji set.
 
 
 ## Help Maintenance
