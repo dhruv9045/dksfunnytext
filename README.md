@@ -5,7 +5,7 @@ The "DksFunnyText" package allows you to convert your simple text into emojis, m
 
 ## Help Maintenance
 
-I've been maintaining quite many repos these days and burning out slowly. If you could help me cheer up, buying me a cup of coffee will make my life really happy and get much energy out of it.
+Maintaining open-source repositories can be challenging, and your support can make a significant difference. If you find this package helpful and would like to show your appreciation, consider buying me a cup of coffee. Your support will help me stay motivated and continue improving this package.
 <br>
 <a href="https://www.buymeacoffee.com/dksdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
