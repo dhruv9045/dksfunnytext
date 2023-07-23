@@ -11,22 +11,25 @@ I've been maintaining quite many repos these days and burning out slowly. If you
 
 
 ## Getting started
+To use this package in your project, add the following line to your `pubspec.yaml` file:
 
-Example: Add the module to your project pubspec.yaml:
-```dart
-... 
-  dependencies:
-  ...
-    dksfunnytext: ^0.0.1
-...
+```yaml
+
+dependencies:
+  
+  dksfunnytext: ^0.0.1+3
+
 ```
-And install it using flutter packages get on your project folder. After that, just import the module and use it:
+Then, run flutter packages get in your project folder to install the package. Import the module in your Dart code:
 ```dart
 import 'package:dksfunnytext/dksfunnytext.dart';
 ```
 ## Usage
 
 # Simple text(bool) simpleText = true
+
+To display simple text without converting it into emojis, set simpleText to true:
+
 ```dart
   DksFunnyText(
           simpleText: true,
@@ -40,6 +43,8 @@ import 'package:dksfunnytext/dksfunnytext.dart';
 
 
 # Text-Emoji(bool) simpleText = false
+To convert your text into emojis, set simpleText to false:
+
 ```dart
   DksFunnyText(
           simpleText: false,
@@ -53,6 +58,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
 
 
 # Default emoji(bool) replaceSome = false
+If you don't want to customize emojis and prefer to use the default emojis, set replaceSome to false:
 ```dart
   DksFunnyText(
           simpleText: false,
@@ -63,7 +69,7 @@ import 'package:dksfunnytext/dksfunnytext.dart';
  ```
 
 # Customize emoji(bool) replaceSome = true
- Note: If replaseSome is true then emoji Map<String,dynamic> required other wise it pick up default emojies.
+If you want to customize the emojis used for specific characters, set replaceSome to true, and provide a Map<String, dynamic> of characters and their corresponding emojis:
 ```dart
   Map<String, dynamic> emoji = {"A": '😇', "C": '😄'};
 
@@ -75,6 +81,5 @@ import 'package:dksfunnytext/dksfunnytext.dart';
           style: TextStyle(color: Colors.red),
         ),
 ```
- 
 
 
