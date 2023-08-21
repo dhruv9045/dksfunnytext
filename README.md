@@ -17,7 +17,7 @@ To use this package in your project, add the following line to your `pubspec.yam
 
 dependencies:
   
-  dksfunnytext: ^0.0.1+3
+  dksfunnytext: ^0.0.1+4
 
 ```
 Then, run flutter packages get in your project folder to install the package. Import the module in your Dart code:
@@ -39,7 +39,8 @@ To display simple text without converting it into emojis, set simpleText to true
           style: TextStyle(color: Colors.red),
         ),
  ```
- ![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/simple%20text.png)
+
+ <img src="https://raw.githubusercontent.com/dhruv9045/dksfunnytext/main/screenshots/simple%20text.png" alt="How example looks" width="300" height="540">
 
 
 # Text-Emoji(bool) simpleText = false
@@ -54,7 +55,7 @@ To convert your text into emojis, set simpleText to false:
           style: TextStyle(color: Colors.red),
         ),
 ```
-![simple text](https://github.com/dhruv9045/dksfunnytext/blob/main/screenshots/text%20to%20emoji.png)
+<img src="https://raw.githubusercontent.com/dhruv9045/dksfunnytext/main/screenshots/text%20to%20emoji.png" alt="How example looks" width="300" height="540">
 
 
 # Default emoji(bool) replaceSome = false
